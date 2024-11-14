@@ -1,0 +1,23 @@
+body {
+background: gray;
+color: lightskyblue;
+}
+
+.Outrosdesenhos img {
+height: 150px;
+opacity: 0.6;
+}
+
+.Outrosdesenhos {
+    overflow-x: auto;
+    display: flex;
+    gap: 10px;
+}
+    .Outrosdesenhos img:hover{
+    opacity: 1.0;
+    border: 5px solid silver
+}
+
+header {
+    font-size: 40px;
+}
